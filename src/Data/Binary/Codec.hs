@@ -31,7 +31,7 @@ byteString n = Codec
   { codecIn = getByteString n
   , codecOut = \bs -> if BS.length bs == n
       then bs <$ putByteString bs
-      else fail $ "Expected a ByteString of size " ++ show n
+      else error $ "Expected a ByteString of size " ++ show n
   }
 
 word8 :: BinaryCodec Word8
