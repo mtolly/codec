@@ -26,7 +26,7 @@ library
   build-depends:       base >=4.6 && < 6,
                        bytestring,
                        binary,
-                       binary-bits,
+                       caerbannog,
                        template-haskell,
                        mtl,
                        aeson >= 1.0.0.0,

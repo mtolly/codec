@@ -40,8 +40,7 @@ packages:
 # Dependency packages to be pulled from upstream that are not in the resolver
 # (e.g., acme-missiles-0.3)
 extra-deps:
-- git: git://github.com/tfausak/binary-bits # ghc 8.8 pull req
-  commit: b7480fd7023d9d3adb1862309dd7bc9276e778ed
+- caerbannog-0.6.0.5
 
 # Override default flag values for local packages and extra-deps
 flags: {}
